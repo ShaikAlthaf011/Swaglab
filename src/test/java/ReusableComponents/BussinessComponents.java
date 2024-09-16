@@ -1,11 +1,18 @@
 package ReusableComponents;
 
-import org.testng.Assert;
+import java.io.IOException;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import Orpage.Loginpage;
+import io.opentelemetry.sdk.autoconfigure.spi.ConfigProperties;
+import net.minidev.json.parser.ParseException;
 
 public class BussinessComponents extends TechnicalComponents {
 public static Loginpage lp;
+public static ConfigProperties cg;
+
 
 public static void Navigateurl(String url) {
 	TechnicalComponents.Verifyurl(url);
@@ -35,4 +42,11 @@ public void SwagExcelsheet(String username,String password) {
 	lp.EnterPassword(lp.password, password);
 	lp.LoginButton(lp.Login);
 }
+public static void loginWithCredentials(String username, String password) {
+    lp = new Loginpage(driver);
+    lp.Enterusername(lp.username, username);
+    lp.EnterPassword(lp.password, password);
+    lp.LoginButton(lp.Login);
+}
+
 }

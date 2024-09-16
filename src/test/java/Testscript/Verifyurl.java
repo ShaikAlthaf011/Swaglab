@@ -12,7 +12,7 @@ public class Verifyurl extends BussinessComponents {
 public void Verifyurl() throws IOException {
 	String url=Browsersetup.Open_browser("url");
 	Navigateurl(url);
-	//LoginCredential();
-	//Product();
+	LoginCredential();
+	Product();
 }
 }

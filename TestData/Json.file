@@ -1,0 +1,35 @@
+{
+"users": [
+	      {
+	      "username": "standard_user",
+	      "password": "secret_sauce"
+	    },
+	    {
+	      "username": "secret_sauce",
+	      "password": "standard_user"
+	    },
+	    {
+	      "username": "locked_out_user",
+	      "password": "secret_sauce"
+	    },
+	    {
+	      "username": "problem_user",
+	      "password": "secret_sauce"
+	    },
+	    {
+	      "username": "problem_user",
+	      "password": "secret_sauce"
+	    }
+	    {
+	      "username": "ShaikAlthaf",
+	      "password": "7032618224"
+	    },
+	    {
+	       "username": "ShaikFaruk",
+	      "password": "7032618852"
+	    },
+	    {
+	    }
+	    
+	  ]
+	}
